@@ -1,6 +1,12 @@
 public class Electrodomestico extends Producto {
+    public Electrodomestico(String name, double price){
+        super(name,price);
+    }
+   
     @Override
-    getDescription(){
-        
+    public String getDescription(){
+        return "Electrodomestico con garantía";
     }
 }
+
+
